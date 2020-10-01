@@ -1,0 +1,42 @@
+body {
+  margin:0 0;
+  font-family: 'Roboto', sans-serif;
+  background: floralwhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar {
+  background-color : #2f3640;
+  width: 350px;
+  height: 100vh;
+}
+
+.sidebar img {
+  margin:1em 0;
+  width:100%;
+}
+
+.sidebar ul {
+  font-size:24px;
+  list-style: none;
+  padding:0;
+}
+
+.sidebar ul li {
+  margin:0.5em 1em;
+  padding:0.5em;
+  font-weight: bold;
+}
+
+.active ,.sidebar ul li:hover{
+  background:#25292e;
+  border-radius: 7px;
+}
+
+.sidebar ul li a:link, .sidebar ul li a:visited, .sidebar ul li a:active { 
+  text-decoration: none; 
+  color:white;
+ } 
